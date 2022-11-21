@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1 2`] = `
+<div
+  className="common-card "
+  data-testid="common-card"
+>
+  <div
+    className="inner "
+    data-testid="inner"
+  >
+    <div
+      className="common-card-front"
+      data-testid="common-card-front"
+    />
+    <div
+      className="common-card-back"
+      data-testid="common-card-back"
+    />
+  </div>
+</div>
+`;
+
+exports[`renders correctly 2 2`] = `
+<div
+  className="common-card "
+  data-testid="common-card"
+>
+  <div
+    className="inner open"
+    data-testid="inner"
+  >
+    <div
+      className="common-card-front"
+      data-testid="common-card-front"
+    />
+    <div
+      className="common-card-back"
+      data-testid="common-card-back"
+    />
+  </div>
+</div>
+`;
