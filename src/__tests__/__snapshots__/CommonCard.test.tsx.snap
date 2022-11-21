@@ -33,11 +33,19 @@ exports[`renders correctly 2 2`] = `
     <div
       className="common-card-front"
       data-testid="common-card-front"
-    />
+    >
+      <div>
+        Front
+      </div>
+    </div>
     <div
       className="common-card-back"
       data-testid="common-card-back"
-    />
+    >
+      <div>
+        Back
+      </div>
+    </div>
   </div>
 </div>
 `;

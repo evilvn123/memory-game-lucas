@@ -71,7 +71,15 @@ it("renders correctly 1", () => {
 });
 
 it("renders correctly 2", () => {
-  const tree = renderer.create(<CommonCard open={true} />).toJSON();
+  const tree = renderer
+    .create(
+      <CommonCard
+        open={true}
+        frontNode={<div>Front</div>}
+        backNode={<div>Back</div>}
+      />
+    )
+    .toJSON();
   expect(tree).toMatchInlineSnapshot(`
 <div
   className="common-card "
@@ -84,14 +92,21 @@ it("renders correctly 2", () => {
     <div
       className="common-card-front"
       data-testid="common-card-front"
-    />
+    >
+      <div>
+        Front
+      </div>
+    </div>
     <div
       className="common-card-back"
       data-testid="common-card-back"
-    />
+    >
+      <div>
+        Back
+      </div>
+    </div>
   </div>
 </div>
 `);
   expect(tree).toMatchSnapshot();
 });
-
