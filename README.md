@@ -1,38 +1,46 @@
 # Memory Card
-## Here is the demo <a href="https://memory-card-nguyen-viet-thinh.vercel.app/" style="font-size: 18px">Click to see demo</a>
+## Let's <a href="https://memory-game-lucas.vercel.app/">play</a>
+## Description
+This is a basic memory card game. Combined with my hobby, I transform a memory card game with my favorite manga characters
+- Now it's only 10 different characters each turn when you start. These come from the 15 (maybe more) images gallery
+- Source structure
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### A typical top-level directory layout
+    src
+    ├── __tests__               # Test files 
+    ├── components              # Components
+    │   ├── CommonCard          # Basic Card with 2 face and canbe custom
+    │   ├── MemmoryCard         # A CommonCard with action, custom style
+    └── interfaces              # Custom data type
+    └── pages                   # Contain main screens
+    └── interfaces              # Custom data type
 
-### Technologies and library
-In this project, i use [React](https://reactjs.org/) and [Typescripts](https://www.typescriptlang.org/) as the main technology
+## Technologies and library
+Basic start witd Create-react-app and the Typescript template, get documentation from [React](https://reactjs.org/) and [Typescripts](https://www.typescriptlang.org/).
 
-#### Technologies used
+### Technologies used
 - CRA
 - HTML5
 - SASS/SCSS
 - Reactjs
 - Typescripts
 
-Besides, I use some modules during project development
-#### For styling
+### Style
 - [Node-sass](https://www.npmjs.com/package/node-sass)
 
-#### For testing
+### Testing Library
 - [Jest](https://jestjs.io/)
 - [testing-library](https://testing-library.com/)
 - [enzyme](https://enzymejs.github.io/enzyme/docs/guides/jest.html)
 
-### Available Scripts
-
 ### Setup
 Following are the requirements to run this project:
 
-  - Node
+  - Node (My environment was v14 so you guy should install v14 or higher)
   - Node Package Manager (NPM)
-  - React
-
-**Note:** Node 14 and Npm in the original development environment
-### Basic usage
+  - Run the project: Clone the source code -> run `npm install` ->  run `npm start` 
+  - Run the test files: run `npm test`
+### Available Scripts
 
 1. `npm install`
    
@@ -42,6 +50,9 @@ Use this command line to install necessary modules
 
 Use this command line to run the app in development mode
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
 3. `npm test`
 
