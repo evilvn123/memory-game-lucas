@@ -8,7 +8,7 @@ afterEach(cleanup);
 const card: GameCard = {
   image:
     "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2a6bf3c3-ed4e-4d52-85b6-2692a3b8eeac/dcruy46-ff29bbcc-2fe8-4f6e-b72a-2023a490cd22.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzJhNmJmM2MzLWVkNGUtNGQ1Mi04NWI2LTI2OTJhM2I4ZWVhY1wvZGNydXk0Ni1mZjI5YmJjYy0yZmU4LTRmNmUtYjcyYS0yMDIzYTQ5MGNkMjIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.I2dGebKY-yxOVbv4LwcOU5ePeeYICmcuzQvu3fPGazo",
-  id: "1-0",
+  id: "id1-first",
   status: "close",
   cardName: "1",
 };
