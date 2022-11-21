@@ -54,7 +54,3 @@ You will also see any lint errors in the console.
 3. `npm test`
 
 Run the test files
-
-4. `npm run coverage`
-
-Run the test files with showing the test coverage
