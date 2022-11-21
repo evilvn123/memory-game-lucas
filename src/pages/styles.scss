@@ -1,0 +1,20 @@
+.main-page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .ninjaGame {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    min-height: 3rem;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(5, 10rem);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 1rem 1rem;
+  }
+}
