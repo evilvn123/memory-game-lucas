@@ -8,13 +8,10 @@ This is a basic memory card game. Combined with my hobby, I transform a memory c
 ### A typical top-level directory layout
     src
     ├── __tests__               # Test files 
-    ├── components              # Components
-    │   ├── CommonCard          # Basic Card with 2 face and canbe custom
-    │   ├── MemmoryCard         # A CommonCard with action, custom style
-    └── interfaces              # Custom data type
-    └── pages                   # Contain main screens
-    └── interfaces              # Custom data type
-
+    ├── components              # Common components
+    ├── interfaces              # Custom data types
+    ├── pages                   # Contain main screens
+    └── utils                   # Custom functions
 ## Technologies and library
 Basic start witd Create-react-app and the Typescript template, get documentation from [React](https://reactjs.org/) and [Typescripts](https://www.typescriptlang.org/).
 
